@@ -5,6 +5,16 @@ A simple library for the Processing programming language that facilitates keyboa
 Download this repository and copy the entire Inputs folder into the libraries folder in your Processing sketchbook folder. Your sketchbook folder is typically in  '/users/username/Documents/Processing/libraries' (you can check the exact folder location in the Processing preferences). 
 
 When your done the folder structure should look like
+
+```
+Documents 
+│
+└───Processing
+    │
+    └───libraries
+    	│  
+   		└───Inputs
+```
 - Documents
  - Processing
   - libraries
