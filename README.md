@@ -15,10 +15,6 @@ Documents
     	│  
    		└───Inputs
 ```
-- Documents
- - Processing
-  - libraries
-   - Inputs
 
 When this is completed, restart Processing and the library is installed. 
 
