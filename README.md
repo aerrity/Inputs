@@ -2,7 +2,7 @@
 ## About
 A simple library for the Processing programming language that facilitates keyboard input via dialog boxes.
 ## Installation
-Download this repository and copy the entire Inputs folder into the libraries folder in your Processing sketchbook folder. Your sketchbook folder is typically in  '/users/username/Documents/Processing/libraries' (you can check the exact folder location in the Processing preferences). 
+Download this repository and copy the entire 'Inputs-master' folder into the libraries folder in your Processing sketchbook folder. Your sketchbook folder is typically in  '/users/username/Documents/Processing/libraries' (you can check the exact folder location in the Processing preferences). Then Rename the 'Inputs-master' folder 'Inputs'.
 
 When your done the folder structure should look like
 
