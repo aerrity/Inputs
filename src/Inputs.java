@@ -1,6 +1,6 @@
 /*
  * Keyboard input library
- * v0.2
+ * v0.4
  * Andrew Errity 1/10/15
  */
 import javax.swing.JOptionPane;
@@ -9,7 +9,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
 
-public static class Inputs{
+public class Inputs{
 
   public static String readString(String textLabel){
     JTextField field  = new JTextField(20);
@@ -83,7 +83,7 @@ public static class Inputs{
   }
   
    public static boolean readBoolean(String label){
-    int in = JOptionPane.showConfirmDialog(null,"choose one", "choose one", JOptionPane.YES_NO_OPTION);
+    int in = JOptionPane.showConfirmDialog(null,label, "choose one", JOptionPane.YES_NO_OPTION);
     if (in == JOptionPane.YES_OPTION) 
       return true;
     else 
