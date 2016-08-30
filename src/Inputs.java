@@ -1,3 +1,4 @@
+package iadt.creative;
 /*
  * Keyboard input library
  * v0.4
@@ -17,7 +18,9 @@ public class Inputs{
     JPanel p = new JPanel(new BorderLayout(5, 2));
     p.add(label, BorderLayout.WEST);
     p.add(field);
-    JOptionPane.showMessageDialog(null, p, "Input required", JOptionPane.PLAIN_MESSAGE, null);
+    field.addAncestorListener( new RequestFocusListener() );
+    JOptionPane.showMessageDialog(null, p, "Input required.", JOptionPane.PLAIN_MESSAGE, null);
+   
     String in = field.getText();
     return in; 
   }
